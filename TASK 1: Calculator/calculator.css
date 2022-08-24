@@ -1,0 +1,73 @@
+h1{
+	text-align: center;
+	font-size: 60px;
+	font-family:fantasy;
+    background: #B3C2F2;
+}
+
+table,th,td{
+	border: 1px solid black;
+	height: 100px;
+	width: 700px;
+	border-spacing: 10px;
+	text-align: center;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+    background: white;
+}
+
+th,td{
+    background: #B3C2F2;
+	font-size: 50px;
+	font-family: fantasy;
+}
+
+body{
+	background-image: url("bg.webp");
+	background-repeat:no-repeat ;
+	background-size: 1536px 748px;  
+}
+
+#show{
+	width: 500px ;
+	height: 70px;
+	margin: 5px;
+	font-size: 50px;
+}
+
+button{
+	background: white;
+	width: 100px ;
+	height: 70px;
+	padding: 10px;
+	margin: 5px;
+	font-size: 50px;
+}
+
+button{
+	cursor: pointer;
+	border-radius: 15px;
+	box-shadow:  5px 10px 18px purple;
+}
+button:hover{
+	background-color: "red";
+}
+button:active {
+  background-color: purple;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#history {
+  text-align: center;
+  font-size: 30px;
+  font-family:fantasy;
+  background: white;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+  box-shadow:  5px 10px 18px purple;
+}
