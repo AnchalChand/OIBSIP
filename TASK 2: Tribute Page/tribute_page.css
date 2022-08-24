@@ -1,0 +1,155 @@
+.heading{
+	text-align: center;
+	font-family:  'Alumni Sans Pinstripe', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: white;              
+}
+.text{
+	text-align: center;
+	font-family: 'Alumni Sans Pinstripe', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	font-kerning: normal;
+	color: white;
+  padding: 50px 50px 50px 50px;
+  margin: 50px;
+  text-align: justify;
+  border: solid;
+  border-radius: 10px;        
+}
+@keyframes box {
+  0%   {border:10px solid lightpink;}
+  25%  {border:10px solid skyblue;}
+  50%  {border:10px solid black;}
+  75%  {border:10px solid white;}
+  100% {border:10px solid pink;}              
+}
+.page_box{
+	width: 100%;
+  min-height: 100vh;       
+}
+.head_img{
+	float: right;
+	width: 50%;
+  min-height: 100vh;
+  background-image: url("05rawat.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.head_title{
+	float: left;
+	width: 734px;
+	height: 734px;
+  animation: box 8s linear infinite;
+  position: absolute;
+  background-color: black;
+}
+.block_1,.block_2,.block_3{
+	width: 100%;
+	min-height: 100vh;
+}
+.block_1_img{
+	float: left;
+	width: 49.6%;
+  min-height: 100vh;
+  background-image: url("img2.webp");
+  background-repeat: no-repeat;
+  background-size: 750px 950px;
+}
+.block_3_img{
+	float: left;
+	width: 49.6%;
+  min-height: 100vh;
+	background-image: url("group.jpg");
+  background-repeat: no-repeat;
+  background-size: 760px 950px;;
+}
+.block_1_text,.block_3_text{
+	float: right;
+	width: 49%;
+  min-height: 100vh;
+  animation: box 8s linear infinite;
+  background-color: black;
+	color: black; 
+}
+
+.block_2_text{
+  width: 48%;
+  min-height: 100vh;
+  animation: box 8s linear infinite;
+  position: absolute;
+  background-color: black;
+
+}
+
+.block_2_img{
+  float: right;
+	width: 51%;
+  min-height: 100vh;
+  background-image: url("nda.jpg");
+  background-repeat: no-repeat;
+  background-size: 800px 950px;
+}
+
+.block_3{
+	background-color:white;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	align-items: center;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100vh;
+  min-height: 100vh;
+}
+
+.slider-container {
+  position: relative;
+  width: 700px;
+  overflow: hidden;
+  height: 700px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.image-container {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 20px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.btn.prev {
+  left: 10px;
+}
+
+.btn.next {
+  right: 10px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.quote,footer{
+	text-align: center;
+	font-family: 'Alumni Sans Pinstripe', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	font-kerning: normal;
+	color: black;
+}
