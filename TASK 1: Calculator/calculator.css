@@ -7,7 +7,7 @@ h1{
 
 table,th,td{
 	border: 1px solid black;
-	height: 100px;
+	height: 90px;
 	width: 700px;
 	border-spacing: 10px;
 	text-align: center;
@@ -52,6 +52,7 @@ button{
 	border-radius: 15px;
 	box-shadow:  5px 10px 18px purple;
 }
+
 button:hover{
 	background-color: "red";
 }
@@ -70,4 +71,13 @@ button:active {
   margin: 20px;
   padding: 10px;
   box-shadow:  5px 10px 18px purple;
+}
+
+footer{
+	text-align: center;
+	font-family: 'Alumni Sans Pinstripe', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	font-kerning: normal;
+	background-color: white;
 }
