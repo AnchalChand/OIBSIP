@@ -19,5 +19,5 @@ Description: A Tribute page with image slider, dedicated to General Bipin Rawat
 
 Output: 
 
-https://user-images.githubusercontent.com/82054687/186516345-7483283e-ca25-4987-adba-423e3008e311.mp4
+https://user-images.githubusercontent.com/82054687/186624009-4bdb5f5f-4bf9-4d3d-ae96-2f2d6633b479.mp4
 
