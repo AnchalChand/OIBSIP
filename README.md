@@ -21,3 +21,12 @@ Output:
 
 https://user-images.githubusercontent.com/82054687/186624009-4bdb5f5f-4bf9-4d3d-ae96-2f2d6633b479.mp4
 
+
+# Task 3: A Basic To-Do WebApp
+Languages: HTML, CSS, JavaScript
+
+Description: A basic To-Do webapp that enables a user to add daily tasks.
+
+Output: 
+
+https://user-images.githubusercontent.com/82054687/187022490-717a81c0-2f9c-4f48-bd5e-fc53b930e5ed.mp4
