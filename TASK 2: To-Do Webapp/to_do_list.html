@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TO DO LIST</title>
+
+  <script type="text/javascript" src="to_do_list.js"></script>
+  <link rel="stylesheet" type="text/css" href="to_do_list.css">
+  
+</head>
+
+<body onload="currentTime(); todayDate()">
+    <div id="date"> </div><br>
+   
+    <div class="msg" id="clock"> </div><br>
+
+    <div class="internal_box">
+         <h1 class="heading"> TO-DO-LIST</h1>   <br>
+                <input id="input_box" type="text" name="input_box" placeholder="Please Enter Items to the List"  autocomplete="off" >
+                <input id="addTaskBtn" type="submit" class="btn" value="Add Item" onclick="addLi()"> <br><br>
+         
+                <ol id="input_list"> </ol>
+    </div><br>
+
+    <div class="second_box">
+         <h3>Completed Tasks</h3>
+               <ol id="ct_list"> </ol>
+    </div>
+
+</body>
+</html>
